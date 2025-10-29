@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
 import { useLanguage } from '@/lib/language'
 
 interface HeaderProps {
@@ -11,13 +10,7 @@ interface HeaderProps {
 
 export default function Header({ isLoggedIn }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const router = useRouter()
   const { language, setLanguage, t } = useLanguage()
-
-  const handleLogout = () => {
-    localStorage.removeItem('token')
-    router.push('/')
-  }
 
   const toggleLanguage = () => {
     setLanguage(language === 'zh' ? 'en' : 'zh')
