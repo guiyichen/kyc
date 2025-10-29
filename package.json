@@ -1,0 +1,36 @@
+{
+  "name": "kyc-countries-showcase",
+  "version": "1.0.0",
+  "description": "各国KYC要求展示平台 - 展示欧美日韩等发达国家和地区的KYC验证要求",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "eslint": "^8.55.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "keywords": [
+    "kyc",
+    "countries",
+    "showcase",
+    "compliance",
+    "verification"
+  ],
+  "author": "KYC Platform",
+  "license": "MIT"
+}
